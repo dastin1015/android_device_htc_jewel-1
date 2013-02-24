@@ -12,7 +12,7 @@ $(call inherit-product, device/htc/jewel/jewel.mk)
 PRODUCT_DEVICE := jewel
 PRODUCT_NAME := cm_jewel
 PRODUCT_BRAND := htc
-PRODUCT_MODEL := EVO
+PRODUCT_MODEL := EVO 4G LTE
 PRODUCT_MANUFACTURER := HTC
 
 # Set build fingerprint / ID / Product Name ect.
