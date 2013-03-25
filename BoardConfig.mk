@@ -28,6 +28,7 @@
 -include device/htc/msm8960-common/BoardConfigCommon.mk
 
 # Bootloader
+TARGET_KERNEL_SOURCE := kernel/htc/jewel
 TARGET_BOOTLOADER_BOARD_NAME := jewel
 
 # Kernel
