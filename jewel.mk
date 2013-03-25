@@ -85,9 +85,9 @@ PRODUCT_PACKAGES += \
     Tag \
     com.android.nfc_extras
 
-# Torch
 PRODUCT_PACKAGES += \
-    Torch
+    Torch \
+    CellBroadcastReceiver
 
 # Filesystem management tools
 PRODUCT_PACKAGES += \
