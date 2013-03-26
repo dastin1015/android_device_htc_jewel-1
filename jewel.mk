@@ -89,13 +89,6 @@ PRODUCT_PACKAGES += \
     Torch \
     CellBroadcastReceiver
 
-# Goo
-PRODUCT_PROPERTY_OVERRIDES += \
-     ro.goo.developerid=dastin1015 \
-     ro.goo.board=jewel \
-     ro.goo.rom=WILD-FOR-THE-NIGHT \
-     ro.goo.version=$(shell date +%Y%m%d%H%M%S)
-
 # Filesystem management tools
 PRODUCT_PACKAGES += \
    make_ext4fs \
@@ -121,7 +114,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     gsm.operator.alpha = sprint \
     gsm.operator.numeric = 310120 \
     gsm.operator.iso-country = us \
-    ro.carrier=Sprint
+    ro.carrier=Sprint \
+    ro.goo.version=$(shell date +%Y%m%d%H%M%S)
 
 # We have enough space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
